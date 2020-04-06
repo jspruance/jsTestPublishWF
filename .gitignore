@@ -1,0 +1,23 @@
+# Dependency directories
+node_modules/
+.cache
+
+# Editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Filesystem
+.DS_Store
+
+# Logs
+npm-debug.log*
+
+# Optional npm cache directory
+.npm
+
+# build directory
+/lib
