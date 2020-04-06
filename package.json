@@ -1,0 +1,37 @@
+{
+  "name": "wm-feature-flag-client",
+  "author": "Warner Media",
+  "version": "1.0.0",
+  "description": "A client library for determining the availability of certain platform features for a given user.",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && mocha ./tests/**/*.js",
+    "eslint": "eslint  ./src/*.ts ./src/**/*.ts",
+    "eslint-fix": "eslint  ./src/*.ts ./src/**/*.ts --fix"
+  },
+  "dependencies": {
+    "@types/node": "^13.9.2",
+    "@types/uuid": "^7.0.2",
+    "axios": "^0.19.2",
+    "uuid": "^7.0.2",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/parser": "^2.24.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-only-warn": "^1.0.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^7.1.1",
+    "sinon": "^9.0.1",
+    "typescript": "^3.8.3"
+  }
+}
