@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "A client library for determining the availability of certain platform features for a given user.",
   "license": "UNLICENSED",
-  "private": true,
+  "private": false,
   "main": "./lib/index.js",
   "scripts": {
     "build": "tsc",
