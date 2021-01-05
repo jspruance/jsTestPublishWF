@@ -15,7 +15,7 @@
   "dependencies": {
     "@types/node": "^13.9.2",
     "@types/uuid": "^7.0.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "uuid": "^7.0.2",
     "winston": "^3.2.1"
   },
